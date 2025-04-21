@@ -317,3 +317,43 @@
     top: 13px;
   }
   
+  .social-login {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .social-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn-social {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .btn-social:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

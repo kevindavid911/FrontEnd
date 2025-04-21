@@ -60,11 +60,19 @@ const Login = () => {
             </div>
           </div>
 
-          <p className="p">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
+          <div className="social-login">
+        <p className="social-text">or sign in with</p>
+        <div className="social-buttons">
+          <button className="btn-social">
+            <img
+              src="./public/img/google.png"
+              alt="Google"
+              className="social-icon"
+            />
+          </button>
         </div>
+      </div>
+    </div>
 
         <div className="group-8">
           <div className="rectangle-2" />
